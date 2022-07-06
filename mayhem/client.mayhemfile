@@ -1,0 +1,8 @@
+project: lettre
+target: client
+
+cmds:
+  - cmd: /client
+    network:
+      url: tcp://127.0.0.1:25
+      client: true
